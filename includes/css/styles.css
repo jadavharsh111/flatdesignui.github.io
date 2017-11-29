@@ -1,0 +1,269 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+/* background video */
+#background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+}
+/* heading first page */
+div#heading{
+        margin-top: 300px;
+        height: 450px;
+        font-size: 40px;
+        color: white;
+        
+}
+
+font.p1{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 90px;
+  color: white;
+}
+font.p1{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+}
+font.p3{
+  font-family: Montserrat;
+  
+  font-size: 40px;
+  color: white;
+}
+
+/* Seperator */
+div#seperator{
+  background-color: white;
+  border:none;
+  height: 1px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+button.info{
+  background-color: transparent;
+  border-color: white;
+  border-width: 3px;
+}
+
+/* tags for destinations */
+button#box1{
+  background-color: transparent;
+  border-color: #3498db;
+  border-width: 2px;
+  margin-top: 2px;
+  font-weight: bold;
+}
+button#box2{
+  background-color: transparent;
+  border-color:#f1c40f;
+  border-width: 2px;
+  margin-top: 2px;
+  font-weight: bold;
+}
+button#box3{
+  background-color: transparent;
+  border-color:#1abc9c;
+  border-width: 2px;
+  margin-top: 2px;
+  font-weight: bold;
+}
+button#box4{
+  background-color: transparent;
+  border-color: #e67e22;
+  border-width: 2px;
+  margin-top: 3px;
+  font-weight: bold;
+}
+button#box5{
+  background-color: transparent;
+  border-color: #f39c12;
+  border-width: 2px;
+  margin-top: 3px;
+  font-weight: bold;
+}
+p.activities-description{
+  color: white;
+}
+
+/* activities */
+img#activities{
+  margin-left: 300px;
+}
+
+img#adventureicon{
+  width: 250px;
+  height: 250px;
+}
+
+.panel-transparent {
+        background: none;
+}
+.panel-transparent1#background-opacity{
+  background: transparent;
+  border-color: white;
+  border-width: 3px;
+      
+  font-size: 20px;
+  font-weight: bold;
+
+      
+      
+    }
+.panel-transparent1#background-opacity1{
+  background: black;
+  border-color: white;
+  border-width: 3px;
+  opacity: 0.7;
+      
+}
+    
+li#tab-border{
+        
+  border-color: white;
+  border-width: 2px;
+        
+  color: white;
+  font-size: 20px;
+  }
+a#tab-font{
+  color: black;
+}
+p.content1{
+  color: white;
+  font-size: 15px;
+  font-family: 'Roboto Mono';
+}
+p.content2{
+  color: white;
+  font-size: 15px;
+  font-family: 'Roboto Mono';
+}
+div#tabcontent1{
+  background-color: black;
+  opacity: 0.7;
+}
+
+#features{
+   text-align: center;
+}
+
+#features img{
+   margin: 0 0 20px;
+}
+
+div#navigation{
+
+}
+
+#panel1{
+  background-color: white;
+  color: black;
+  border-color: white;
+}
+#panel2{
+  border-color: white;
+}
+div.carousel-border{
+  border-color: white;
+  border-width: 10px;
+  
+}
+footer{
+   color: #eee;
+   padding: 20px;
+   background-color: #333;
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   
+input#search{
+	 width: 200px;
+}
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#myCarousel {
+   margin-top: 60px;
+   }
+
+.carousel-caption {
+   font-size: 24px;
+}
+
+.carousel-caption h4 {
+   font-size: 32px;
+}
+
+#mycarousel1 .item { height: 400px; }
+
+#slide1 {
+   background: url('../../images/c1.jpg') top center no-repeat;
+}
+
+#slide2 {
+   background: url('../../images/c2.jpg') top center no-repeat;
+}
+
+#slide3 {
+   background: url('../../images/c3.jpg') top center no-repeat;
+}
+
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}

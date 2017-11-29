@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title></title>
+		<meta name="description" content="">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<!-- Google Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
+		<!-- Bootstrap CSS -->
+
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+		<script>  
+function validateform(){  
+var name=document.myform.inputName.value;  
+
+  
+if (name==null || name==""){  
+  alert("Name can't be blank");  
+  return false;  
+}
+  var x = document.forms["myform"]["inputEmail"].value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+        alert("Not a valid e-mail address");
+        return false;
+    } 
+}  
+</script>  
+		
+	</head>
+	<body>
+
+		<video autoplay loop muted id="background">
+
+        <source src="video/3.mp4" type="video/mp4">
+
+    </video>
+
+	<div class="container" id="main">
+		 <div class="navbar navbar-inverse navbar-embossed navbar-fixed-top" id="navigation">
+            <div class="container">
+                <button type="button" data-toggle="collapse" class="navbar-toggle" data-target=".navbar-responsive-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand"><img src="images/logo1.png" alt="Your logo" width="108px" height="22px"></a>
+                <!-- End of Navbar Logo -->
+                <div class="nav-collapse collapse navbar-responsive-collapse" >
+                    <ul class="nav navbar-nav" id="navigationtab"> 
+                        <li class="active"><a href="/">Home</a></li>
+                        <li class="dropdown">
+                            <a href="/" data-toggle="dropdown" class="dropdown-toggle">Adventures<strong class="caret"></strong></a>
+                            <ul class="dropdown-menu">
+                                
+                                <li>
+                                    <a href="">Para Gliding</a>
+                                </li>
+                                
+                                <li>
+                                    <a href="">Scuba Diving</a>
+                                </li>
+                                <li>
+                                    <a href="">Rafting</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header"    > More services  </li>
+                                <li>
+                                    <a href="">Content Creation</a>
+                                </li>
+                                <li>
+                                    <a href="">Social Media Marketing</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- End of dropdown -->
+                    </ul> 
+                    <!-- End of Navigation -->
+                    <form class="navbar-form pull-left">
+                        <input type="text" class="form-control" placeholder="Enter your search query" id="search">
+                        <button class="btn btn-default "><span class="glyphicon glyphicon-search" ></span></button>
+                    </form>
+                    <!-- End of Navbar Search  -->
+                    <ul class="nav navbar-nav pull-right">
+                        <li class="dropdown">
+                            <a href="/" data-toggle="dropdown" class="dropdown-toggle"><span class="glyphicon glyphicon-user">  My Account<strong class="caret"></strong></a>
+                            <ul class="dropdown-menu">
+                                
+                                <li>
+                                    <a href=""><span class="glyphicon glyphicon-wrench"></span>  Settings</a>
+                                </li>
+                                
+                                <li>
+                                    <a href=""><span class="glyphicon glyphicon-refresh"></span>  Update Profile</a>
+                                </li>
+                                <li>
+                                    <a href=""><span class="glyphicon glyphicon-briefcase"></span>  Billing</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">
+                                    <a href=""><span class="glyphicon glyphicon-off"></span>  Sign Out</a>
+                                </li> 
+                            </ul>
+                        </li>
+                        <!-- End of dropdown --> 
+                    </ul>
+                    <!-- End of Navbar My Account -->
+                </div>
+                <!-- End of Collapsible Navbar -->       
+            </div>    
+            <!-- End of Navbar container -->
+        </div>
+        <!-- End of Navbar -->
+
+
+        <div class="container box2" id="heading">
+		   			
+		   				<center>
+		   					<font class="p1">DO MORE</font><br>
+		   					<font class="p2">THAN JUST EXIST</font>
+		   				</center>
+		   				
+       	</div> <!--end of heading -->
+
+
+
+       	<div class="row" id="features">
+       				<center>
+		   					<font class="p3">WHAT WE DO!</font><br>
+		   					
+		   				</center><br><br>
+						<div class="col-sm-4 feature">
+								<div class="panel panel-primary panel-transparent1" id="background-opacity">
+						
+								<img src="images/1.svg" alt="icon1" class="img-circle" id="adventureicon">
+
+								<p class="activities-description">Exploring</p>
+						
+							  </div>
+						</div>
+						<div class="col-sm-4 feature">
+								<div class="panel panel-primary panel-transparent1" id="background-opacity">
+					
+								<img src="images/2.svg" alt="icon1" class="img-circle" id="adventureicon">
+
+								<p class="activities-description">Trekking</p>
+					
+						</div>
+						</div>
+							<div class="col-sm-4 feature">
+								<div class="panel panel-primary panel-transparent1" id="background-opacity" >
+									
+									<img src="images/3.svg" alt="icon1" class="img-circle" id="adventureicon">
+
+									<p class="activities-description">Para Gliding</p>
+									
+								</div>
+							</div>
+		</div> <!--end of activities -->
+
+			<div class="container">
+				<center>
+					<div class="col-sm-12" id="seperator">				
+					</div>
+				</center>
+			</div><!-- end of seperator -->
+
+		<div class="container">
+			<div class="col-sm-12 feature">
+							<center>
+		   					<font class="p3">DESTINATIONS</font><br><br>	
+		   				</center>
+				<div class="panel panel-primary panel-transparent1" id="background-opacity1" >
+					
+					
+					<button type="button" class="btn btn-primary info" id="box1">Northern Vietnam</button>
+					<button type="button" class="btn btn-primary info" id="box2">Bishkek, Kyrgyzstan</button>
+					<button type="button" class="btn btn-primary info" id="box3">Lisbon, Portugal</button>
+					<button type="button" class="btn btn-primary info" id="box4">Seoul, South Korea</button>
+					<button type="button" class="btn btn-primary info" id="box5">Bucharest, Romania</button>
+					<button type="button" class="btn btn-primary info" id="box2">Bali, Indonesia</button>
+					<button type="button" class="btn btn-primary info" id="box3">Angra dos Reis, Brazil</button><br>
+					<button type="button" class="btn btn-primary info" id="box4">Belfast, Northern Ireland</button>
+					<button type="button" class="btn btn-primary info" id="box1">Belgrade, Serbia</button>
+					<button type="button" class="btn btn-primary info" id="box2">Bermuda</button>
+					<button type="button" class="btn btn-primary info" id="box1">Cambodian Coast</button>
+					<button type="button" class="btn btn-primary info" id="box4">Cape Town, South Africa
+
+					</button>
+					<button type="button" class="btn btn-primary info" id="box5">Cincinnati, Ohio</button>
+					<button type="button" class="btn btn-primary info" id="box3">DGuayaquil, Ecuador</button><br>
+					<button type="button" class="btn btn-primary info" id="box2">Hamburg, Germany</button>
+					<button type="button" class="btn btn-primary info" id="box1">Hampi, India</button>
+
+					<button type="button" class="btn btn-primary info" id="box5">Helsinki, Finland</button>
+					<button type="button" class="btn btn-primary info" id="box3">Honolulu, Hawaii</button>
+					<button type="button" class="btn btn-primary info" id="box2">Indianapolis, Indiana</button>
+					<button type="button" class="btn btn-primary info" id="box5">Destinations</button>
+					<button type="button" class="btn btn-primary info" id="box2">Destinations</button>
+
+					
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<center>
+				<div class="col-sm-12" id="seperator">	
+				</div>
+			</center>
+		</div><!-- end of seperator -->
+
+
+		
+		<div class="carousel slide" id="mycarousel1">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li class="active" data-slide-to="0" data-target="#mycarousel1"></li>
+			<li class="active" data-slide-to="1" data-target="#mycarousel1"></li>
+			<li class="active" data-slide-to="2" data-target="#mycarousel1"></li>
+		</ol>
+			<!-- wrapper for slides -->
+			<div class="carousel-inner carousel-border">
+				<div class="item active" id="slide1">
+					<div class="carousel-caption">
+						<h4>ADVENTURE</h4>
+						<p>Para Gliding</p>
+					</div><!--end carousel caption -->
+				</div><!-- end item -->
+				<div class="item" id="slide2">
+					<div class="carousel-caption">
+						<h4>Adventure</h4>
+						<p>Scuba Diving</p>
+					</div><!--end carousel caption -->
+				</div><!-- end item -->
+				<div class="item" id="slide3">
+					<div class="carousel-caption">
+						<h4>Adventure</h4>
+						<p>Para Sailing</p>
+					</div><!--end carousel caption -->
+				</div><!-- end item -->
+			</div> <!-- carousel inner -->
+
+			<!-- Controls -->
+			<a class="left carousel-control" data-slide="prev" href="#mycarousel1">
+				<span class="icon-prev"></span>
+			</a>
+
+			<a class="right carousel-control" data-slide="next" href="#mycarousel1">
+				<span class="icon-next"></span>
+			</a>
+
+		</div><!-- end my carousel1 -->
+		<div class="container">
+			<center>
+				<div class="col-sm-12" id="seperator">	
+				</div>
+			</center>
+		</div>
+		
+
+		<div class="row" id="moreInfo">
+				<div class="col-sm-12">
+					<font class="p3">ADVENTURES</font><br>
+					<div class="tabbable" >
+						<ul class="nav nav-tabs" >
+							<li class="active" id="tab-border"><a href="#tab1" data-toggle="tab" id="tab-font">Bungee Jumping</a>
+							</li>
+							<li id="tab-border"><a href="#tab2" data-toggle="tab" id="tab-font">Scuba Diving</a>
+							</li>
+						</ul>
+						<div class="tab-content" id="tabcontent1">
+							<div class="tab-pane active" id="tab1">
+								<p class="content1">
+					       Bungee jumping involves leaping from a height connected to a large elastic rope (or cord), which is tied to the feet – or, more specifically, the ankles. This is as adrenaline- filled an activity as any dreamt up by man. And one that both young and old have delighted in, and thrilled in, over the last quarter-century or so. Bungee jumps usually take place from tall buildings, bridges or cranes – but they’ve also been attempted from moving objects (helicopters and hot-air balloons, for example). As the jumper free-falls from a height, the cord stretches; as the cord rebounds, the momentum takes the jumper upwards. This up-and-down trampoline-like movement continues until the elastic cord loses all its energy. Hurtling down from heights may seem terrifying but bungee jumping is a safe activity with a very good overall safety record – most bungee operations around the world are run by trained and experienced professionals, using the best, and the most reliable, equipment, and with the most stringent safety procedures in place. All you need is plenty of nervous energy – too much of it, and you might just back out!
+					    	</p>
+							</div><!-- end tab-pane -->
+							
+							<div class="tab-pane" id="tab2">
+								
+								
+							
+								
+								<p class="content2">Scuba diving is perhaps the best way to explore the fantastic underwater world, getting up close with the wonders and the secrets of this marine universe, with its breathtakingly colourful and diverse inhabitants. Floating below the azure waters, you are in an ethereal – sometimes hostile – environment, with a limited supply of air on your back and with only your fellow divers as your lifelines. Over the years and the decades, scuba diving has evolved into a non-competitive but a very exciting adventure sport.
+                SCUBA is the short form of ‘Self Contained Underwater Breathing Apparatus’. It was developed in the mid-1940s by the world famous underwater explorer and conservationist, Jacques-Yves Cousteau (with more than a little help from Émile Gagnan), for the French Navy during the Second World War. After the war, however, diving turned into a recreational sport, which has since been taken up by millions worldwide.</p>
+								
+								<hr>
+													
+								
+							</div><!-- end tab-pane -->
+						</div><!-- end tab-content -->
+					</div><!-- end tabbable -->
+				</div><!-- end col-sm-6 -->
+
+
+				<div class="container">
+			<center>
+				<div class="col-sm-12" id="seperator">	
+				</div>
+			</center>
+		</div>
+
+			<div class="col-sm-6"></div>
+		</div>
+	</div>
+
+	<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click for a Modal Window!</a>
+								
+								<div class="modal fade" id="myModal">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button class="close" data-dismiss="modal">&times;</button>
+												
+												<h4 class="modal-title">A Modal Window</h4>
+											</div><!-- end modal-header -->
+											<div class="modal-body">
+												
+												
+												
+												
+												
+												
+												<form class="form-horizontal" onsubmit="return validateform();" name="myform">
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputName">Name</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputName" placeholder="Name" type="text" name="name">
+														</div>
+													</div>
+													
+																<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+														<div class="col-lg-10">
+															<input class="form-control" id="inputEmail" placeholder="Email" type="email" name="email">
+														</div>
+													</div>
+													
+													<div class="form-group">
+														<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+														<div class="col-lg-10">
+															<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+															<button class="btn btn-success pull-right" type="submit">Send!</button>
+														</div>
+													</div>
+												</form>
+											</div><!-- end modal-body -->
+
+	<footer>
+		<div class="container">
+			<div class="col-sm-2">Contact us</div>
+			<div class="col-sm-4">About Us</div>		
+			<div class="col-sm-3">Queries</div>
+			<div class="col-sm-3">Team</div>
+	</footer>
+	
+	<!-- Your Code Goes Here. Remember to remove this comment once you've started, you don't need it :) -->
+	
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	
+	</body>
+</html>
+
